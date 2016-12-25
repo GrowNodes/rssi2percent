@@ -1,11 +1,9 @@
-# plott-rssi-quality
-
-[![build status](https://secure.travis-ci.org/Plott/plott-rssi-quality.png)](http://travis-ci.org/Plott/plott-rssi-quality)
+# rssi2percent
 
 Converts RSSI in dBm to quality percentage.
 
 
-### `plott.rssiQuality(dBm)`
+### `rssi2percent.rssiQuality(dBm)`
 
 Converts RSSI dBm to WiFi signal strength percentage (quality).
 
@@ -19,7 +17,7 @@ Converts RSSI dBm to WiFi signal strength percentage (quality).
 ### Example
 
 ```js
-var quality = plott.rssiQuality(-75);
+var quality = rssi2percent.rssiQuality(-75);
 
 //=quality
 ```
@@ -32,7 +30,7 @@ var quality = plott.rssiQuality(-75);
 Requires [nodejs](http://nodejs.org/).
 
 ```sh
-$ npm install plott-rssi-quality
+$ npm i --save https://github.com/GrowNodes/rssi2percent.git
 ```
 
 ## Tests
