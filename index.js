@@ -23,5 +23,5 @@ var getQuality = function (dBm) {
 module.exports = function (dBm) {
   if (!isInteger(dBm)) throw new Error ('dBm must be an integer');
   var quality = dBm <= -100 ? 0 : dBm >= -50 ? 1 : getQuality(dBm);
-  return quality;
+  return Math.ceil(quality*100);
 };
