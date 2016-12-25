@@ -1,5 +1,5 @@
 {
-  "name": "plott-rssi-quality",
+  "name": "rssi2percent",
   "version": "0.0.1",
   "description": "Converts RSSI in dBm to quality percentage.",
   "main": "index.js",
