@@ -9,20 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Plott/plott-rssi-quality.git"
+    "url": "git+https://github.com/GrowNodes/rssi2percent.git"
   },
   "keywords": [
     "dBm",
     "RSSI",
     "WiFi",
-    "Plott"
   ],
   "author": "Corey White",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Plott/plott-rssi-quality/issues"
+    "url": "https://github.com/GrowNodes/rssi2percent/issues"
   },
-  "homepage": "https://github.com/Plott/plott-rssi-quality#readme",
+  "homepage": "https://github.com/GrowNodes/rssi2percent#readme",
   "devDependencies": {
     "tape": "~3.5.0",
     "dox": "^0.7.1",

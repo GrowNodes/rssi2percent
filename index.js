@@ -1,12 +1,12 @@
 /**
  * Converts RSSI dBm to WiFi signal strength percentage (quality).
  *
- * @module plott/rssiQuality
+ * @module grownodes/rssiQuality
  * @category helper
  * @param {Integer} dBm RSSI dBm
  * @return {Number} WiFi signal quality
  * @example
- * var quality = plott.rssiQuality(-75);
+ * var quality = grownodes.rssiQuality(-75);
  *
  * //=quality
  */
@@ -22,6 +22,6 @@ var getQuality = function (dBm) {
 
 module.exports = function (dBm) {
   if (!isInteger(dBm)) throw new Error ('dBm must be an integer');
-  var quality = dBm <= -100 ? 0 : dBm >= -50 ? 100 : getQuality(dBm);
+  var quality = dBm <= -100 ? 0 : dBm >= -50 ? 1 : getQuality(dBm);
   return quality;
 };
